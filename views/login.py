@@ -60,7 +60,9 @@ login_view = ft.Container(
     border_radius=20,
     width=300,
     height=600,
-    gradient=ft.LinearGradient([ft.colors.RED, ft.colors.PINK, ft.colors.PURPLE]),
+    gradient=ft.LinearGradient(
+        [ft.colors.AMBER_200, ft.colors.PURPLE_200, ft.colors.PINK_100]
+    ),
 )
 
 
