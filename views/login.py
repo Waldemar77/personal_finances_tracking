@@ -64,17 +64,3 @@ login_view = ft.Container(
         [ft.colors.AMBER_200, ft.colors.PURPLE_200, ft.colors.PINK_100]
     ),
 )
-
-
-def main(page: ft.Page):
-
-    # main configurations for page
-    page.bgcolor = ft.colors.BLACK
-    page.horizontal_alignment = "center"
-    page.vertical_alignment = "center"
-
-    # adding new objets to the page
-    page.add(login_view)
-
-
-ft.app(target=main)
